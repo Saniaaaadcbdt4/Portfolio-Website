@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7a1fbdc492.js" crossorigin="anonymous"></script>
+</head>
+<div>
+    <!--HEADER-->
+    <div class="header">
+        <div class="container">
+            <nav>
+                <img src="name.png"class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+        <div class="header-text">
+            <p>Front-End Developer</p>
+            <h1>Hi, I'm <span>Sania</span><br > Ahmed from Pakistan.</h1>
+        </div>
+        </div>
+    </div>
+    <!--ABOUT-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <img src="about me.png">
+                </div>
+                <div class="col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A student with a strong foundation in front-end development, specializing in HTML, CSS, and JavaScript, and currently building skills in React. Through my LinkedIn internship, I’m dedicated to creating clean, responsive, and user-focused web experiences. </p>
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Web devolepment</span><br>Shaping Modern Web Designs</li>
+                    <li><span>UI/UX</span><br>User-Centric Design</li>
+                </ul>
+              </div>
+
+              <div class="tab-contents " id="experience">
+                <ul>
+                    <li><span>2022-2023</span><br>Focused on learning Html, css & JS along with University</li>
+                    <li><span>2024 - Current</span><br>Building Proficiency in React JS</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+             <li><span>2024 - Current</span><br>Doing BS(CS) From IISAT university</li>
+             <li><span>2022</span><br>completed Fsc(medical) From PunjabGroupOfColleges</li>
+                </ul>
+              </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Creating visually appealing, user-friendly website designs that prioritize both aesthetics and functionality. My approach ensures a seamless user experience across all devices.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <!---->
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Practicing on designing engaging and efficient UI/UX solutions that prioritize user needs.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                 <!---->
+                 <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Responsiveness</h2>
+                    
+                    <p>Ensuring responsive designs that adapt effortlessly across all screen sizes,  providing a consistent and smooth user experience everywhere.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--Portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            
+            <div class="work-list">
+                <!--Work 1-->
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>Websites</h3>
+                    <p> A seamless and enjoyable experience across all platforms.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                 <!--Work 2-->
+                <div class="work">
+                    <img src="work2.png">
+                    <div class="layer">
+                        <h3>Websites Clones</h3>
+                    <p>User-Interactive clones</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    </div>
+                     <!--Work 3-->
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>Frameworks & libraries</h3>
+                    <p>Incorporating popular frameworks and libraries into projects to enhance design consistency</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#"class="button">See More</a>
+        </div>
+        </div>
+   <!--Contact Section-->
+   <footer id="contact">
+    <div class="container">
+        <div class="row">
+            <!--Left-->
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-regular fa-paper-plane"></i>saniaaaaaahmed@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i>03215537255</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.instagram.com/salony9174/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/saniaahmed-cs/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="My CV.pdf"download class="button button2">Download CV</a>
+            </div>
+            <!--Right-->
+            <div class="contact-right">
+                <form name="submit-to-google-sheet"class="form">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email"name="Email"placeholder="Your Email" required>
+                    <textarea name="Message" rows="6"placeholder="Your Message"></textarea>
+                    <button type="submit" class="button button2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+            </div>
+        </div>
+        <footer class="copyright">
+        <p>&copy; 2024 Sania Ahmed. All rights reserved.</p>
+    </footer>
+     </div>
+   <!--The End-->
+
+    <script src="script.js"></script>
+</body>
+</html>
